@@ -13,7 +13,7 @@ struct WeatherModel {
     let cityName: String
     let temperature: Double
     
-    var temoeratureString: String {
+    var temperatureString: String {
         return String(format: "%.1f", temperature)
     }
     
